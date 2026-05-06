@@ -2,10 +2,10 @@
 
 A lightweight, Python-based CLI tool designed for IT administrators to automate user lifecycle management, asset tracking, and audit logging. This toolkit streamlines the most repetitive parts of IT admin work—onboarding new employees and offboarding departing ones—simulating integrations with Active Directory and Microsoft 365.
 
-## 🎯 Why I Built This
+## Why I Built This
 I developed this project to demonstrate hands-on experience with core IT administration workflows. Managing employee onboarding, offboarding, and asset inventory manually is prone to errors, security oversights, and lost hardware. This tool automates these repetitive tasks, securely reclaims hardware during offboarding, generates checklists, and maintains a strict audit trail, showcasing a proactive approach to IT operations and process improvement.
 
-## ✨ Core Features
+## Core Features
 - **Automated User Provisioning (Onboarding):** Creates simulated AD/M365 accounts, generates secure random passwords, assigns users to departments, and generates localized welcome emails.
 - **Secure Offboarding Workflow:** One-command offboarding that disables accounts, revokes access, flags assigned physical assets for reclamation, and generates an offboarding checklist.
 - **Asset Inventory Tracking:** A built-in SQLite-backed register to track hardware (laptops, peripherals, etc.). Quickly assign assets, view unassigned equipment, or generate CSV reports.
@@ -16,7 +16,7 @@ I developed this project to demonstrate hands-on experience with core IT adminis
 - **SQLite3** - Lightweight, zero-config local database for Users, Assets, and Logs.
 - **PyYAML** - Configuration management (`config.yaml`).
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository:**
    ```bash
@@ -32,7 +32,7 @@ I developed this project to demonstrate hands-on experience with core IT adminis
 3. **Configure your environment:**
    Edit `config.yaml` to match your organization's domain, name, and default password policies.
 
-## 💻 Usage & Workflows
+## Usage & Workflows
 
 ### 1. Onboarding a New Employee
 Creates a user account structure, sets up temporary credentials, and logs the action.
@@ -61,7 +61,7 @@ python itkit.py audit --last 10
 python itkit.py audit --user john.doe --export audit_report.csv
 ```
 
-## 📂 Project Structure
+## Project Structure
 ```text
 .
 ├── config.yaml          # Company configuration (domain, depts)
