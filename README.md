@@ -11,7 +11,7 @@ I developed this project to demonstrate hands-on experience with core IT adminis
 - **Asset Inventory Tracking:** A built-in SQLite-backed register to track hardware (laptops, peripherals, etc.). Quickly assign assets, view unassigned equipment, or generate CSV reports.
 - **Compliance & Audit Logging:** Every IT action (creation, deletion, asset assignment) is automatically timestamped and logged for security and compliance audits.
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Python 3.8+** - Core script logic and CLI parsing (`argparse`).
 - **SQLite3** - Lightweight, zero-config local database for Users, Assets, and Logs.
 - **PyYAML** - Configuration management (`config.yaml`).
