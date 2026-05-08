@@ -20,7 +20,7 @@ I developed this project to demonstrate hands-on experience with core IT adminis
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/it-management-toolkit.git
+   git clone https://github.com/Nisssssaan444/it-management-toolkit.git
    cd it-management-toolkit
    ```
 
