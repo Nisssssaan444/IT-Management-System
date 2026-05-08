@@ -37,13 +37,13 @@ I developed this project to demonstrate hands-on experience with core IT adminis
 ### 1. Onboarding a New Employee
 Creates a user account structure, sets up temporary credentials, and logs the action.
 ```bash
-python itkit.py onboard --name "John Doe" --dept Engineering --manager alice@acmecorp.com
+python itkit.py onboard --name "nissan" --dept Engineering --manager alice@corp.com
 ```
 
 ### 2. Managing IT Assets
 Add hardware to the inventory and assign it to the new hire.
 ```bash
-python itkit.py asset --add --name "Latitude 7420" --assigned-to john.doe --type laptop --serial SN9876543
+python itkit.py asset --add --name "mac 7420" --assigned-to nissan --type laptop --serial SN9876543
 python itkit.py asset --list --unassigned
 python itkit.py asset --report
 ```
@@ -51,14 +51,14 @@ python itkit.py asset --report
 ### 3. Offboarding a Departing Employee
 Disables the user profile, flags their assets as unassigned, and provides a clear separation checklist.
 ```bash
-python itkit.py offboard --user john.doe@acmecorp.com
+python itkit.py offboard --user nissan.s@corp.com
 ```
 
 ### 4. Security & Audit Trail
 Check the audit log to verify recent administrative actions.
 ```bash
 python itkit.py audit --last 10
-python itkit.py audit --user john.doe --export audit_report.csv
+python itkit.py audit --user nissan.s --export audit_report.csv
 ```
 
 ## Project Structure
